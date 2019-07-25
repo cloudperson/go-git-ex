@@ -7,12 +7,12 @@ import (
 	"testing"
 
 	"gopkg.in/src-d/go-billy.v4/memfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	. "gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/cache"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/format/idxfile"
+	. "github.com/cloudperson/go-git-ex.v4/plumbing/format/packfile"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/storer"
+	"github.com/cloudperson/go-git-ex.v4/storage/filesystem"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-git-fixtures.v3"

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
 )
 
 const MaxResolveRecursion = 1024

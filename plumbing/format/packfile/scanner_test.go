@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-git-fixtures.v3"

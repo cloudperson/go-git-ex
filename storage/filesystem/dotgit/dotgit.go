@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"gopkg.in/src-d/go-billy.v4/osfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/storage"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/storage"
+	"github.com/cloudperson/go-git-ex.v4/utils/ioutil"
 
 	"gopkg.in/src-d/go-billy.v4"
 )

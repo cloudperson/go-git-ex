@@ -4,9 +4,9 @@ import (
 	"io"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/object"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/storer"
 )
 
 // CommitNode is generic interface encapsulating a lightweight commit object retrieved

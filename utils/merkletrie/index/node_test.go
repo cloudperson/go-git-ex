@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/format/index"
+	"github.com/cloudperson/go-git-ex.v4/utils/merkletrie"
+	"github.com/cloudperson/go-git-ex.v4/utils/merkletrie/noder"
 )
 
 func Test(t *testing.T) { TestingT(t) }

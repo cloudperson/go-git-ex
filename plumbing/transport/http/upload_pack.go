@@ -7,12 +7,12 @@ import (
 	"io"
 	"net/http"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/internal/common"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/format/pktline"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/protocol/packp"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport/internal/common"
+	"github.com/cloudperson/go-git-ex.v4/utils/ioutil"
 )
 
 type upSession struct {

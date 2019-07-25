@@ -5,11 +5,11 @@ package client
 import (
 	"fmt"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/file"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/git"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/http"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/ssh"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport/file"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport/git"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport/http"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport/ssh"
 )
 
 // Protocols are the protocols supported by default.

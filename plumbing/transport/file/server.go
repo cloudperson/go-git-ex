@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/internal/common"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/server"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport/internal/common"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/transport/server"
+	"github.com/cloudperson/go-git-ex.v4/utils/ioutil"
 )
 
 // ServeUploadPack serves a git-upload-pack request using standard output, input
