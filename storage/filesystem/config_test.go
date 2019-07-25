@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/dotgit"
+	"github.com/cloudperson/go-git-ex.v4/config"
+	"github.com/cloudperson/go-git-ex.v4/storage/filesystem/dotgit"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/osfs"
