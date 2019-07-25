@@ -8,7 +8,7 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/storage/filesystem/dotgit"
 
 	. "gopkg.in/check.v1"
-	"github.com/cloudperson/go-billy/osfs"
+	"github.com/cloudperson/go-billy.v4/osfs"
 	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 

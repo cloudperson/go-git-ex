@@ -10,8 +10,8 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/storage/memory"
 
 	. "gopkg.in/check.v1"
-	"github.com/cloudperson/go-billy/memfs"
-	"github.com/cloudperson/go-billy/util"
+	"github.com/cloudperson/go-billy.v4/memfs"
+	"github.com/cloudperson/go-billy.v4/util"
 	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 

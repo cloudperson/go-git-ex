@@ -9,7 +9,7 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/plumbing/filemode"
 	"github.com/cloudperson/go-git-ex.v4/utils/merkletrie/noder"
 
-	"github.com/cloudperson/go-billy"
+	"github.com/cloudperson/go-billy.v4"
 )
 
 var ignore = map[string]bool{

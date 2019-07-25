@@ -3,7 +3,7 @@ package packfile
 import (
 	"io"
 
-	billy "github.com/cloudperson/go-billy"
+	billy "github.com/cloudperson/go-billy.v4"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/cache"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/format/idxfile"

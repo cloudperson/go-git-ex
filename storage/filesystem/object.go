@@ -14,7 +14,7 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/storage/filesystem/dotgit"
 	"github.com/cloudperson/go-git-ex.v4/utils/ioutil"
 
-	"github.com/cloudperson/go-billy"
+	"github.com/cloudperson/go-billy.v4"
 )
 
 type ObjectStorage struct {

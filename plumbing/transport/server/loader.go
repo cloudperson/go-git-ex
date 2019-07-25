@@ -6,8 +6,8 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/plumbing/transport"
 	"github.com/cloudperson/go-git-ex.v4/storage/filesystem"
 
-	"github.com/cloudperson/go-billy"
-	"github.com/cloudperson/go-billy/osfs"
+	"github.com/cloudperson/go-billy.v4"
+	"github.com/cloudperson/go-billy.v4/osfs"
 )
 
 // DefaultLoader is a filesystem loader ignoring host and resolving paths to /.

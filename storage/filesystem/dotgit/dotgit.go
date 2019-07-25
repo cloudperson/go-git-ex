@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudperson/go-billy/osfs"
+	"github.com/cloudperson/go-billy.v4/osfs"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/storage"
 	"github.com/cloudperson/go-git-ex.v4/utils/ioutil"
 
-	"github.com/cloudperson/go-billy"
+	"github.com/cloudperson/go-billy.v4"
 )
 
 const (
