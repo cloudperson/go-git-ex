@@ -13,7 +13,7 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/plumbing/object"
 	"github.com/cloudperson/go-git-ex.v4/storage"
 
-	"gopkg.in/src-d/go-billy.v4"
+	"github.com/cloudperson/go-billy"
 )
 
 // Commit stores the current contents of the index in a new commit along with

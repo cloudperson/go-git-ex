@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"gopkg.in/src-d/go-billy.v4/osfs"
+	"github.com/cloudperson/go-billy/osfs"
 	"github.com/cloudperson/go-git-ex.v4/config"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/cache"

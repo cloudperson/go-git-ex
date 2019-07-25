@@ -25,8 +25,8 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/storage/filesystem"
 	"github.com/cloudperson/go-git-ex.v4/utils/ioutil"
 
-	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-billy.v4/osfs"
+	"github.com/cloudperson/go-billy"
+	"github.com/cloudperson/go-billy/osfs"
 )
 
 // GitDirName this is a special folder where all the git stuff is.

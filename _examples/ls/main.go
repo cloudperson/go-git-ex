@@ -17,8 +17,8 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/plumbing/object/commitgraph"
 	"github.com/cloudperson/go-git-ex.v4/storage/filesystem"
 
-	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-billy.v4/osfs"
+	"github.com/cloudperson/go-billy"
+	"github.com/cloudperson/go-billy/osfs"
 )
 
 // Example how to resolve a revision into its commit counterpart

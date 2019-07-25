@@ -14,7 +14,7 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/plumbing/transport/http"
 	"github.com/cloudperson/go-git-ex.v4/storage/memory"
 
-	"gopkg.in/src-d/go-billy.v4/memfs"
+	"github.com/cloudperson/go-billy/memfs"
 )
 
 func ExampleClone() {

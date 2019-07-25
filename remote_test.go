@@ -20,7 +20,7 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/storage/memory"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v4/osfs"
+	"github.com/cloudperson/go-billy/osfs"
 	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 

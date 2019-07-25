@@ -22,9 +22,9 @@ import (
 
 	"golang.org/x/text/unicode/norm"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v4/memfs"
-	"gopkg.in/src-d/go-billy.v4/osfs"
-	"gopkg.in/src-d/go-billy.v4/util"
+	"github.com/cloudperson/go-billy/memfs"
+	"github.com/cloudperson/go-billy/osfs"
+	"github.com/cloudperson/go-billy/util"
 	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 

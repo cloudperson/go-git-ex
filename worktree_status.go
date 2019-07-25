@@ -8,7 +8,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-billy.v4/util"
+	"github.com/cloudperson/go-billy/util"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/filemode"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/format/gitignore"

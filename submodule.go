@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"gopkg.in/src-d/go-billy.v4"
+	"github.com/cloudperson/go-billy"
 	"github.com/cloudperson/go-git-ex.v4/config"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/format/index"
