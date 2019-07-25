@@ -3,11 +3,11 @@ package git
 import (
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/cache"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/storer"
+	"github.com/cloudperson/go-git-ex.v4/storage"
+	"github.com/cloudperson/go-git-ex.v4/storage/filesystem"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-git-fixtures.v3"

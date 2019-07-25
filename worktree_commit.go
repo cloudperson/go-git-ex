@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"golang.org/x/crypto/openpgp"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/storage"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/filemode"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/format/index"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/object"
+	"github.com/cloudperson/go-git-ex.v4/storage"
 
 	"gopkg.in/src-d/go-billy.v4"
 )

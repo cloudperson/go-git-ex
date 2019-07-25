@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/object"
+	"github.com/cloudperson/go-git-ex.v4/storage/memory"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-git-fixtures.v3"

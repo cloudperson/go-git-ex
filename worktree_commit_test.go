@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/cache"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/object"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/storer"
+	"github.com/cloudperson/go-git-ex.v4/storage/filesystem"
+	"github.com/cloudperson/go-git-ex.v4/storage/memory"
 
 	"golang.org/x/crypto/openpgp"
 	"golang.org/x/crypto/openpgp/armor"
