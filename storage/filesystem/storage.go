@@ -5,7 +5,7 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/plumbing/cache"
 	"github.com/cloudperson/go-git-ex.v4/storage/filesystem/dotgit"
 
-	"gopkg.in/src-d/go-billy.v4"
+	"github.com/cloudperson/go-billy"
 )
 
 // Storage is an implementation of git.Storer that stores data on disk in the

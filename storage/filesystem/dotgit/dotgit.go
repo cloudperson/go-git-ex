@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/src-d/go-billy.v4/osfs"
+	"github.com/cloudperson/go-billy/osfs"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/storage"
 	"github.com/cloudperson/go-git-ex.v4/utils/ioutil"
 
-	"gopkg.in/src-d/go-billy.v4"
+	"github.com/cloudperson/go-billy"
 )
 
 const (

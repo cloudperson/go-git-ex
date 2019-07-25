@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-billy.v4/memfs"
+	"github.com/cloudperson/go-billy"
+	"github.com/cloudperson/go-billy/memfs"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/utils/merkletrie"
 	"github.com/cloudperson/go-git-ex.v4/utils/merkletrie/noder"

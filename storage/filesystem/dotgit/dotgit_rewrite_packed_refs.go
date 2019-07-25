@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"gopkg.in/src-d/go-billy.v4"
+	"github.com/cloudperson/go-billy"
 	"github.com/cloudperson/go-git-ex.v4/utils/ioutil"
 )
 

@@ -9,8 +9,8 @@ import (
 	"github.com/cloudperson/go-git-ex.v4/storage/test"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v4/memfs"
-	"gopkg.in/src-d/go-billy.v4/osfs"
+	"github.com/cloudperson/go-billy/memfs"
+	"github.com/cloudperson/go-billy/osfs"
 )
 
 func Test(t *testing.T) { TestingT(t) }

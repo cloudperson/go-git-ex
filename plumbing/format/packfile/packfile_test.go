@@ -5,7 +5,7 @@ import (
 	"math"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v4/osfs"
+	"github.com/cloudperson/go-billy/osfs"
 	fixtures "gopkg.in/src-d/go-git-fixtures.v3"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/format/idxfile"

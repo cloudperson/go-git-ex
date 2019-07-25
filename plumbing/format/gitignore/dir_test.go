@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-billy.v4/memfs"
+	"github.com/cloudperson/go-billy"
+	"github.com/cloudperson/go-billy/memfs"
 )
 
 type MatcherSuite struct {

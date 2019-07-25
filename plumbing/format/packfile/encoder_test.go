@@ -5,7 +5,7 @@ import (
 	"io"
 	stdioutil "io/ioutil"
 
-	"gopkg.in/src-d/go-billy.v4/memfs"
+	"github.com/cloudperson/go-billy/memfs"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/format/idxfile"
 	"github.com/cloudperson/go-git-ex.v4/storage/memory"

@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	billy "gopkg.in/src-d/go-billy.v4"
+	billy "github.com/cloudperson/go-billy"
 	"github.com/cloudperson/go-git-ex.v4/plumbing"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/cache"
 	"github.com/cloudperson/go-git-ex.v4/plumbing/format/idxfile"
