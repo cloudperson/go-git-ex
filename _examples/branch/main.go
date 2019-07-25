@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/cloudperson/go-git-ex.v4"
+	. "github.com/cloudperson/go-git-ex.v4/_examples"
+	"github.com/cloudperson/go-git-ex.v4/plumbing"
 )
 
 // An example of how to create and remove branches or any other kind of reference.

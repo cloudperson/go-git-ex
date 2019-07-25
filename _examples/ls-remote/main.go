@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/cloudperson/go-git-ex.v4"
+	"github.com/cloudperson/go-git-ex.v4/config"
+	"github.com/cloudperson/go-git-ex.v4/storage/memory"
 )
 
 // Retrieve remote tags without cloning repository

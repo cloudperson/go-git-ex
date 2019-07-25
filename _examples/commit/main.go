@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
+	"github.com/cloudperson/go-git-ex.v4"
+	. "github.com/cloudperson/go-git-ex.v4/_examples"
+	"github.com/cloudperson/go-git-ex.v4/plumbing/object"
 )
 
 // Basic example of how to commit changes to the current branch to an existing
